@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+ 	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+	<link rel="stylesheet" type="text/css" href="customstyles.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo"><h1 class=" animate__animated animate__wobble ">Harry Potter</h1></div>
+			<div class="menu">
+				<a href="index.html">Home</a>
+				<a href="login.html">Login</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</nav>
+		<main>
+			<section class="register-form">
+				<h1>Registeration Form</h1>
+				<form>
+				<label>Name :</label>
+				<input type="text" class="register-box"name="your name" placeholder="Enter your name">
+				<br>
+				<label>DOB :</label>
+				<input type="date" class="register-box"name="DOB" placeholder="Birth date">
+				<br>
+				<label>Sex :</label>
+				<label>Male<input type="radio" class="rd1" name="radio"></label>
+				<label>Female<input type="radio"class="rd2" name="radio"></label>
+				<br>
+				<label>Email :</label>
+				<input type="email" class="register-box"name="Email" placeholder="Your email address">
+				<br>
+				<label> Address :</label>
+				<input type="text" class="register-box"name="Address" placeholder="ADDRESS">
+				<br>
+				<label>School :</label>
+				<select name="School" class="register-box"id="School">
+	    			<option placeholder="">--Please choose an option--</option>
+	   		 		<option placeholder="#">Kendriya Vidyalaya</option>
+	    			<option placeholder="#">Raipur convent Higher Secondary School</option>
+	   				<option placeholder="#">Central Primary Higher Secondary School</option>  
+				</select>
+				<br>
+				<label>Department :</label>
+				<select name="Department"class="register-box" id="Department">
+					<option placeholder="">--Please choose an option--</option>
+					<option placeholder="#">Science</option>
+					<option placeholder="#">Commerce</option>
+					<option placeholder="#">Arts</option>  
+				</select>
+				<br>
+				<label>Course :</label>
+				<select name="School" class="register-box" id="Select-select">
+					<option placeholder="">--Please choose an option--</option>
+					<option placeholder="#">B.Tech</option>
+					<option placeholder="#">B.com</option>
+					<option placeholder="#">Bsc</option>
+					<option placeholder="#">BCA</option>
+				<option placeholder="#">Agriculture</option>
+				<option placeholder="#">B.Ed</option>   
+				</select>
+				<br>
+				<label>Mobile Number :</label>
+				<input type="number" name="xxxxxxxxxx" placeholder="9644365343">
+				<br>
+				<input type="button" class="btnregister1" name="" value="Reset">
+				<input type="button" class="btnregister2"name="" value="Submit">
+				</form>
+			</section>
+		</main>
+	</header>
+</body>
+</html>
